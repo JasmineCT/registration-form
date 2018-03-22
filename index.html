@@ -12,5 +12,65 @@
 </head>
 <body>
 
+  <form class="push-0" method="POST" action="https://formspree.io/carl0128@algonquincollege.com">
+    <section class="island-2">
+      <div class="grid">
+        <div class="unit">
+          <h1>Want to go to Mars?</h1>
+          <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+
+          <fieldset>
+            <legend class=" pad-t-1-2 pad-b-1-2">Personal details</legend>
+            <div class="grid">
+              <div class="unit left pad-t-1-2 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+                <label for="name">Name</label>
+                <input id="name" name="name" required>
+              </div>
+
+              <div class="unit right pad-t-1-2 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+                <label for="number">Age</label>
+                <input id="number" type="number" required>
+              </div>
+
+              <div class="unit left pad-t-1-2 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" required>
+              </div>
+
+              <div class="unit right pad-t-1-2 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+                <label for="subject">Physical fitness</label>
+                <select id="subject" name="_subject">
+                  <option>Super-human</option>
+                  <option>Fit as a fiddle</option>
+                  <option>Not terribly strong</option>
+                  <option>A little couch-potato-y</option>
+                </select>
+              </div>
+
+              <div class="unit right pad-t-1-2 xs-1 s-1 m-1 l-1">
+                <label for="message">Address</label>
+                <textarea id="message"></textarea>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Mission statement</legend>
+            <div>
+              <label for="details">Why do you want to go to Mars?</label>
+              <textarea id="details" name="message"></textarea>
+            </div>
+          </fieldset>
+
+          <div>
+            <button class="btn btn-dark kilo center-text center-block" type="submit">Register for the trip!</button>
+            <div>
+              <input type="hidden" name="_subject" value="Request to join the mission">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </form>
 </body>
 </html>
